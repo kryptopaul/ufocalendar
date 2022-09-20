@@ -1,5 +1,5 @@
-import React from 'react';
-import { Button, MantineProvider } from '@mantine/core';
+
+import { MantineProvider } from '@mantine/core';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';

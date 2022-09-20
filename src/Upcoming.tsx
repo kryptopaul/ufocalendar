@@ -1,5 +1,4 @@
-import { IconHeart } from '@tabler/icons';
-import { Card, Image, Text, Group, Badge, Button, ActionIcon, createStyles, Grid } from '@mantine/core';
+import { Grid } from '@mantine/core';
 import { BadgeCard } from './Card';
 
 export function Upcoming(){

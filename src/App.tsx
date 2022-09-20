@@ -1,5 +1,5 @@
-import { MantineProvider, Text, Button, Title, Grid, Container} from '@mantine/core';
-import { BadgeCard } from './Card';
+import { Title, Grid, Container} from '@mantine/core';
+
 import { HeaderSimple } from './Header';
 import { Upcoming } from './Upcoming';
 import { Featured } from './Featured';
