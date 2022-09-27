@@ -64,7 +64,7 @@ export function Featured({
     >
       <Overlay
         gradient={`linear-gradient(105deg, ${theme.black} 20%, #312f2f 50%, ${theme.colors.gray[4]} 100%)`}
-        opacity={0.55}
+        opacity={0.25}
         zIndex={0}
       />
 

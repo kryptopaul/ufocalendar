@@ -29,15 +29,17 @@ const useStyles = createStyles((theme) => ({
 interface BadgeCardProps {
   image: string;
   title: string;
-  country: string;
+  chain: string;
   description: string;
+  website: string;
+  discord: string;
   badges: {
     emoji: string;
     label: string;
   }[];
 }
 
-export function BadgeCard({ image, title, description, country, badges }: BadgeCardProps) {
+export function BadgeCard({ image, title, description, chain, badges, website, discord}: BadgeCardProps) {
   const { classes, theme } = useStyles();
 
   const features = badges.map((badge) => (
@@ -66,7 +68,7 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeC
             Mint date: 25.09.2022
           </Text>
           </div>
-          <Badge size="sm" color={'blue'}>{country}</Badge>
+          <Badge size="sm" color={'blue'}>{chain}</Badge>
         </Group>
         <Text size="sm" mt="xs">
           {description}
@@ -83,10 +85,10 @@ export function BadgeCard({ image, title, description, country, badges }: BadgeC
       </Card.Section>
 
       <Group mt="xs">
-        <Button radius="md" style={{ flex: 1 }}>
+        <Button component='a' href={website} radius="md" style={{ flex: 1 }}>
           Website
         </Button>
-        <Button radius="md" color={'violet'} style={{ flex: 1}}>
+        <Button component='a' href={discord} radius="md" color={'violet'} style={{ flex: 1}}>
           Discord
         </Button>
         <ActionIcon variant="default" radius="md" size={36}>

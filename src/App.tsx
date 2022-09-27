@@ -16,10 +16,10 @@ export default function App() {
 
       <Grid>
           <Grid.Col span={6}>
-            <Featured {...{title: "y00ts", description: "y00ts is a revolutionary NFT collection. Minting in a week!", image: "https://i0.wp.com/mpost.io/wp-content/uploads/y00ts.jpg", action: {label: "Learn more", link: "https://example.com"}}} />
+            <Featured {...{title: "QQL", description: "A collaborative experiment in generative art by Tyler Hobbs and Dandelion Wist Mané.", image: "https://images.squarespace-cdn.com/content/v1/5c12933f365f02733c923e4e/54e3afea-956f-47d7-a0ee-3749db510da8/qql-2.png", action: {label: "Learn more", link: "https://qql.art/"}}} />
         </Grid.Col>
         <Grid.Col span={6}>
-          <Featured {...{title: "Lost Realms", description: "Mysterious team behind a degen project.", image: "https://i.imgur.com/TVCkmPX.png", action: {label: "Learn more", link: "https://example.com"}}} />
+          <Featured {...{title: "Seven Virtues", description: "Mysterious team behind a degen project.", image: "https://i.imgur.com/kIA4BDP.png", action: {label: "Learn more", link: "https://www.niftygateway.com/collections/seven-virtues"}}} />
         </Grid.Col>
       </Grid>
 
