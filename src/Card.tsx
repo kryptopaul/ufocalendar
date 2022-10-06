@@ -41,15 +41,6 @@ interface BadgeCardProps {
 export function BadgeCard({ image, title, description, chain, badges, website, discord}: BadgeCardProps) {
   const { classes, theme } = useStyles();
 
-  const features = badges.map((badge) => (
-    <Badge
-      color={theme.colorScheme === 'dark' ? 'dark' : 'gray'}
-      key={badge.label}
-      leftSection={badge.emoji}
-    >
-      {badge.label}
-    </Badge>
-  ));
 
   return (
     <Card withBorder radius="md" p="md" className={classes.card}>
