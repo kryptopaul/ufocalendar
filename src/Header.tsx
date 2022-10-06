@@ -71,7 +71,7 @@ export function HeaderSimple({ links }: HeaderSimpleProps) {
   return (
     <Header height={60} mb={120}>
       <Container className={classes.header}>
-        <Title>UFOCalendar</Title>
+        <Title>UFOAlerts.io</Title>
         <Group spacing={5} className={classes.links}>
           {items}
         </Group>

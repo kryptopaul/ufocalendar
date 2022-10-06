@@ -1,5 +1,5 @@
 import { Title, Grid, Container} from '@mantine/core';
-
+import { FooterSimple } from './FooterSimple';
 import { HeaderSimple } from './Header';
 import { Upcoming } from './Upcoming';
 import { Featured } from './Featured';
@@ -26,10 +26,8 @@ export default function App() {
       <Title order={2} style={{marginBottom: '20px', marginTop: '20px'}}>Upcoming mints</Title>
 
       <Upcoming />
-
-      <Title order={2} style={{marginBottom: '20px', marginTop: '20px'}}>Past mints</Title>
-
     </Container>
+    <FooterSimple links={[{link: '#', label: 'Home'}, {link: '#', label: 'About'}, {link: '#', label: 'Contact'}]} />
     </>
   );
 }
