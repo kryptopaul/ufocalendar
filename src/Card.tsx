@@ -1,5 +1,4 @@
-import { IconHeart } from '@tabler/icons';
-import { Card, Image, Text, Group, Badge, Button, ActionIcon, createStyles } from '@mantine/core';
+import { Card, Image, Text, Group, Badge, Button, createStyles } from '@mantine/core';
 
 const useStyles = createStyles((theme) => ({
   card: {
