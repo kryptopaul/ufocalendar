@@ -38,8 +38,8 @@ interface BadgeCardProps {
   }[];
 }
 
-export function BadgeCard({ image, title, description, chain, badges, website, discord}: BadgeCardProps) {
-  const { classes, theme } = useStyles();
+export function BadgeCard({ image, title, description, chain, website, discord}: BadgeCardProps) {
+  const { classes } = useStyles();
 
 
   return (
